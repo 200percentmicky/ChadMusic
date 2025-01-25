@@ -1,0 +1,32 @@
+.badge-info {
+    outline-style: solid;
+    font-size: 13px;
+    outline-width: 1px;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 3px;
+    outline-color: #00bad6;
+    background-color: #00b8d418;
+}
+
+.badge-warn {
+    outline-style: solid;
+    font-size: 13px;
+    outline-width: 1px;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 3px;
+    outline-color: #ff9100;
+    background-color: #ff91001e;
+}
+
+.badge-danger {
+    outline-style: solid;
+    font-size: 13px;
+    outline-width: 1px;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 3px;
+    outline-color: #ff5252;
+    background-color: #ff52521a;
+}
