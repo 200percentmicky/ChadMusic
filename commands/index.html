@@ -1,0 +1,4035 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../changelog/">
+      
+      
+        <link rel="next" href="../supported_sites/">
+      
+      
+      <link rel="icon" href="../assets/deejaytreefiddy.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.3">
+    
+    
+      
+        <title>Commands - ChadMusic</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.d7758b05.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/badge.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#commands" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ChadMusic" class="md-header__button md-logo" aria-label="ChadMusic" data-md-component="logo">
+      
+  <img src="../assets/deejaytreefiddy.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ChadMusic
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Commands
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue"  aria-label="Lights on! Click to toggle."  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Lights on! Click to toggle." for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="blue"  aria-label="Lights off... Click to toggle."  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Lights off... Click to toggle." for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/200percentmicky/chadmusic" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    200percentmicky/chadmusic
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ChadMusic" class="md-nav__button md-logo" aria-label="ChadMusic" data-md-component="logo">
+      
+  <img src="../assets/deejaytreefiddy.png" alt="logo">
+
+    </a>
+    ChadMusic
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/200percentmicky/chadmusic" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    200percentmicky/chadmusic
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../changelog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Changelog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Commands
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Commands
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pabout-core-about" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]about | /core about
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#peval-core-owner-eval-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]eval | /core owner eval &lt;code&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phelp-command" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]help [command]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plicense-core-license" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]license | /core license
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pping-core-ping" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]ping | /core ping
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preload-core-owner-reload-reload_slash" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]reload | /core owner reload [reload_slash]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psetavatar-core-owner-setavatar-image-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]setavatar | /core owner setavatar &lt;image&gt; [url]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psetbanner-core-owner-setbanner-image-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]setbanner | /core owner setbanner &lt;image&gt; [url]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psetgame-core-owner-setgame-type-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]setgame | /core owner setgame [type] &lt;status&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pshutdown-core-owner-shutdown-reason" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]shutdown | /core owner shutdown [reason]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psudo-core-owner-sudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]sudo | /core owner sudo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filters
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Filters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pbassboost-pbass-filter-bassboost-gain" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]bassboost | [p]bass | /filter bassboost &lt;gain&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcrusher-filter-crusher-sample-bits-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]crusher | /filter crusher &lt;sample&gt; [bits] [mode]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcrystalize-filter-crystalize-intensity" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]crystalize | /filter crystalize &lt;intensity&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcustomfilter-pcf-filter-customfilter-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]customfilter | [p]cf | /filter customfilter &lt;argument&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filter-remove-filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      /filter remove &lt;filter&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pfilteroff-pfoff-filter-remove-filterall" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]filteroff | [p]foff | /filter remove filter:"all"
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ppitch-filter-pitch-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]pitch | /filter pitch &lt;rate&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ppulsator-filter-pulsator-frequency" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]pulsator | /filter pulsator &lt;frequency&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preverse-filter-reverse" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]reverse | /filter reverse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ptempo-filter-tempo-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]tempo | /filter tempo &lt;rate&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ptremolo-filter-tremolo-depth-frequency" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]tremolo | /filter tremolo &lt;depth&gt; [frequency]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pvibrato-filter-vibrato-depth-frequency" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]vibrato | /filter vibrato &lt;depth&gt; [frequency]
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#player" class="md-nav__link">
+    <span class="md-ellipsis">
+      Player
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Player">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#message-apps-add-to-queue" class="md-nav__link">
+    <span class="md-ellipsis">
+      Message &gt; Apps &gt; Add to queue
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pbindchannel-pbindto-player-bindchannel-channel" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]bindchannel | [p]bindto | /player bindchannel [channel]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pdisconnect-pleave-player-leave" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]disconnect | [p]leave | /player leave
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pearrape-player-earrape" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]earrape | /player earrape
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pforceskip-pfs-skip-force" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]forceskip | [p]fs | /skip force
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pgrab-pyoink-player-grab" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]grab | [p]yoink | /player grab
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#piheartradio-pihr-play-radio-iheartradio-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]iheartradio | [p]ihr | /play radio iheartradio &lt;station&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plyrics-player-lyrics-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]lyrics | /player lyrics [query]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pmove-queue-move-track-position" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]move | /queue move &lt;track&gt; [position]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pnowplaying-pnp-player-nowplaying" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]nowplaying | [p]np | /player nowplaying
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ppause-player-pause" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]pause | /player pause
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplay-pp-play-track-play-attachment-urlsearchattachment" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]play | [p]p | /play track | /play attachment &lt;url/search/attachment&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaynow-pnp-play-now-urlsearchattachment" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playnow | [p]np | /play now &lt;url/search/attachment&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#play-playlist-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      /play playlist &lt;name&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#play-silently-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      /play silently &lt;query&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pqueue-pq-queue-now-show_hidden" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]queue | [p]q | /queue now [show_hidden]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#premove-queue-remove-queue_entrystart-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]remove | /queue remove &lt;queue_entry/start&gt; [end]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prepeat-ploop-player-repeat-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]repeat | [p]loop | /player repeat [mode]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presume-player-resume" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]resume | /player resume
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preversequeue-prq-queue-reverse" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]reversequeue | [p]rq | /queue reverse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psearch-search-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]search | /search &lt;query&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pseek-player-seek-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]seek | /player seek &lt;time&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pshuffle-queue-shuffle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]shuffle | /queue shuffle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pskip-ps-skip-track" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]skip | [p]s | /skip track
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pskipto-pjump-skip-jump-queue_entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]skipto | [p]jump | /skip jump &lt;queue_entry&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pstartover-prestart-player-startover" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]startover | [p]restart | /player startover
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pstop-player-stop" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]stop | /player stop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psummon-pjoin-player-join" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]summon | [p]join | /player join
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pvolume-pvol-player-volume-viewset-number" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]volume | [p]vol | /player volume view/set [number]
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#playlists" class="md-nav__link">
+    <span class="md-ellipsis">
+      Playlists
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Playlists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-add-ppladd-playlist-add-name-track" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-add | [p]pladd | /playlist add &lt;"name"&gt; [track]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-clone-pplclone-playlist-clone-name-clone_name" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-clone | [p]plclone | /playlist clone &lt;"name"&gt; ["clone_name"]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-delete-ppldelete-playlist-delete-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-delete | [p]pldelete | /playlist delete &lt;name&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-new-pplnew-playlist-new-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-new | [p]plnew | /playlist new &lt;name&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-purge-pplpurge-playlist-purge" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-purge | [p]plpurge | /playlist purge
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-remove-pplremove-playlist-remove-name-index_or_start-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-remove | [p]plremove | /playlist remove &lt;"name"&gt; &lt;index_or_start&gt; [end]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-show-pplshow-playlist-show" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-show | [p]plshow | /playlist show
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-view-pplview-playlist-view-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-view | [p]plview | /playlist view &lt;name&gt;
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Settings
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pallowexplicit-settings-allowexplicit-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]allowexplicit | /settings allowexplicit &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pallowfilters-settings-allowfilters-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]allowfilters | /settings allowfilters &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pallowlinks-settings-allowlinks-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]allowlinks | /settings allowlinks &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pallowsilenttracks-settings-allowsilenttracks-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]allowsilenttracks | /settings allowsilenttracks &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pallowyoutube-settings-global-allowyoutube-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]allowyoutube | /settings global allowyoutube &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pblocksong-addremovelist-settings-blocksong-addremovelist-phrase" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]blocksong add/remove/list | /settings blocksong add/remove/list &lt;phrase&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pdefaultvolume-settings-defaultvolume-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]defaultvolume | /settings defaultvolume &lt;volume&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pdjmode-settings-djmode-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]djmode | /settings djmode &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pemptycooldown-settings-emptycooldown-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]emptycooldown | /settings emptycooldown &lt;time&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pfreevolume-settings-unlimitedvolume-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]freevolume | /settings unlimitedvolume &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pglobalsettings-settings-global-current" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]globalsettings | /settings global current
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pleaveonempty-settings-leaveonempty-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]leaveonempty | /settings leaveonempty &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pleaveonfinish-settings-leaveonfinish-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]leaveonfinish | /settings leaveonfinish &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pleaveonstop-settings-leaveonstop-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]leaveonstop | /settings leaveonstop &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pmaxtime-settings-maxtime-duration" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]maxtime | /settings maxtime &lt;duration&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pprefix-settings-prefix-new_prefix" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]prefix | /settings prefix [new_prefix]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presetdata" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]resetdata
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settings-remove-setting" class="md-nav__link">
+    <span class="md-ellipsis">
+      /settings remove &lt;setting&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psetdj-setting-djrole-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]setdj | /setting djrole [role]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psetqueuelimits-settings-setqueuelimts-number" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]setqueuelimits | /settings setqueuelimts &lt;number&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psettings-settings-current" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]settings | /settings current
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pshownewsongonly-settings-global-shownewsongonly-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]shownewsongonly | /settings global shownewsongonly &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psongvcstatus-settings-songvcstatus-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]songvcstatus | /settings songvcstatus &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pstreamtype-settings-global-streamtype-encoder" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]streamtype | /settings global streamtype &lt;encoder&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ptextchannel-settings-textchannel-channel" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]textchannel | /settings textchannel [channel]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pthumbnailsize-settings-thumbnailsize-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]thumbnailsize | /settings thumbnailsize &lt;size&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pvotepercentage-settings-votepercentage-percentage" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]votepercentage | /settings votepercentage &lt;percentage&gt;
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../supported_sites/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supported Sites
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Setup
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Setup
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/getting_started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/install_node/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. Installing Node.js
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/install_git/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Installing git
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/install_ffmpeg/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Downloading FFmpeg
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/creating_app/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Creating your bot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/cloning_the_bot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5. Cloning the bot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/install_packages/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6. Installing Packages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/starting_the_bot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7. Starting the bot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Configuration
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Configuration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuration/customization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customization
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuration/env_variables/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Environment Variables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pabout-core-about" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]about | /core about
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#peval-core-owner-eval-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]eval | /core owner eval &lt;code&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phelp-command" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]help [command]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plicense-core-license" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]license | /core license
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pping-core-ping" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]ping | /core ping
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preload-core-owner-reload-reload_slash" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]reload | /core owner reload [reload_slash]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psetavatar-core-owner-setavatar-image-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]setavatar | /core owner setavatar &lt;image&gt; [url]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psetbanner-core-owner-setbanner-image-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]setbanner | /core owner setbanner &lt;image&gt; [url]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psetgame-core-owner-setgame-type-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]setgame | /core owner setgame [type] &lt;status&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pshutdown-core-owner-shutdown-reason" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]shutdown | /core owner shutdown [reason]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psudo-core-owner-sudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]sudo | /core owner sudo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filters
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Filters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pbassboost-pbass-filter-bassboost-gain" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]bassboost | [p]bass | /filter bassboost &lt;gain&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcrusher-filter-crusher-sample-bits-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]crusher | /filter crusher &lt;sample&gt; [bits] [mode]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcrystalize-filter-crystalize-intensity" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]crystalize | /filter crystalize &lt;intensity&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcustomfilter-pcf-filter-customfilter-argument" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]customfilter | [p]cf | /filter customfilter &lt;argument&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filter-remove-filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      /filter remove &lt;filter&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pfilteroff-pfoff-filter-remove-filterall" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]filteroff | [p]foff | /filter remove filter:"all"
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ppitch-filter-pitch-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]pitch | /filter pitch &lt;rate&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ppulsator-filter-pulsator-frequency" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]pulsator | /filter pulsator &lt;frequency&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preverse-filter-reverse" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]reverse | /filter reverse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ptempo-filter-tempo-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]tempo | /filter tempo &lt;rate&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ptremolo-filter-tremolo-depth-frequency" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]tremolo | /filter tremolo &lt;depth&gt; [frequency]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pvibrato-filter-vibrato-depth-frequency" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]vibrato | /filter vibrato &lt;depth&gt; [frequency]
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#player" class="md-nav__link">
+    <span class="md-ellipsis">
+      Player
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Player">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#message-apps-add-to-queue" class="md-nav__link">
+    <span class="md-ellipsis">
+      Message &gt; Apps &gt; Add to queue
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pbindchannel-pbindto-player-bindchannel-channel" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]bindchannel | [p]bindto | /player bindchannel [channel]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pdisconnect-pleave-player-leave" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]disconnect | [p]leave | /player leave
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pearrape-player-earrape" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]earrape | /player earrape
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pforceskip-pfs-skip-force" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]forceskip | [p]fs | /skip force
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pgrab-pyoink-player-grab" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]grab | [p]yoink | /player grab
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#piheartradio-pihr-play-radio-iheartradio-station" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]iheartradio | [p]ihr | /play radio iheartradio &lt;station&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plyrics-player-lyrics-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]lyrics | /player lyrics [query]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pmove-queue-move-track-position" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]move | /queue move &lt;track&gt; [position]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pnowplaying-pnp-player-nowplaying" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]nowplaying | [p]np | /player nowplaying
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ppause-player-pause" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]pause | /player pause
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplay-pp-play-track-play-attachment-urlsearchattachment" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]play | [p]p | /play track | /play attachment &lt;url/search/attachment&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaynow-pnp-play-now-urlsearchattachment" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playnow | [p]np | /play now &lt;url/search/attachment&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#play-playlist-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      /play playlist &lt;name&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#play-silently-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      /play silently &lt;query&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pqueue-pq-queue-now-show_hidden" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]queue | [p]q | /queue now [show_hidden]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#premove-queue-remove-queue_entrystart-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]remove | /queue remove &lt;queue_entry/start&gt; [end]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prepeat-ploop-player-repeat-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]repeat | [p]loop | /player repeat [mode]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presume-player-resume" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]resume | /player resume
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preversequeue-prq-queue-reverse" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]reversequeue | [p]rq | /queue reverse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psearch-search-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]search | /search &lt;query&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pseek-player-seek-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]seek | /player seek &lt;time&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pshuffle-queue-shuffle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]shuffle | /queue shuffle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pskip-ps-skip-track" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]skip | [p]s | /skip track
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pskipto-pjump-skip-jump-queue_entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]skipto | [p]jump | /skip jump &lt;queue_entry&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pstartover-prestart-player-startover" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]startover | [p]restart | /player startover
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pstop-player-stop" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]stop | /player stop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psummon-pjoin-player-join" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]summon | [p]join | /player join
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pvolume-pvol-player-volume-viewset-number" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]volume | [p]vol | /player volume view/set [number]
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#playlists" class="md-nav__link">
+    <span class="md-ellipsis">
+      Playlists
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Playlists">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-add-ppladd-playlist-add-name-track" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-add | [p]pladd | /playlist add &lt;"name"&gt; [track]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-clone-pplclone-playlist-clone-name-clone_name" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-clone | [p]plclone | /playlist clone &lt;"name"&gt; ["clone_name"]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-delete-ppldelete-playlist-delete-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-delete | [p]pldelete | /playlist delete &lt;name&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-new-pplnew-playlist-new-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-new | [p]plnew | /playlist new &lt;name&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-purge-pplpurge-playlist-purge" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-purge | [p]plpurge | /playlist purge
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-remove-pplremove-playlist-remove-name-index_or_start-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-remove | [p]plremove | /playlist remove &lt;"name"&gt; &lt;index_or_start&gt; [end]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-show-pplshow-playlist-show" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-show | [p]plshow | /playlist show
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pplaylist-view-pplview-playlist-view-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]playlist-view | [p]plview | /playlist view &lt;name&gt;
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Settings
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pallowexplicit-settings-allowexplicit-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]allowexplicit | /settings allowexplicit &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pallowfilters-settings-allowfilters-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]allowfilters | /settings allowfilters &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pallowlinks-settings-allowlinks-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]allowlinks | /settings allowlinks &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pallowsilenttracks-settings-allowsilenttracks-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]allowsilenttracks | /settings allowsilenttracks &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pallowyoutube-settings-global-allowyoutube-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]allowyoutube | /settings global allowyoutube &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pblocksong-addremovelist-settings-blocksong-addremovelist-phrase" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]blocksong add/remove/list | /settings blocksong add/remove/list &lt;phrase&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pdefaultvolume-settings-defaultvolume-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]defaultvolume | /settings defaultvolume &lt;volume&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pdjmode-settings-djmode-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]djmode | /settings djmode &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pemptycooldown-settings-emptycooldown-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]emptycooldown | /settings emptycooldown &lt;time&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pfreevolume-settings-unlimitedvolume-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]freevolume | /settings unlimitedvolume &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pglobalsettings-settings-global-current" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]globalsettings | /settings global current
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pleaveonempty-settings-leaveonempty-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]leaveonempty | /settings leaveonempty &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pleaveonfinish-settings-leaveonfinish-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]leaveonfinish | /settings leaveonfinish &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pleaveonstop-settings-leaveonstop-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]leaveonstop | /settings leaveonstop &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pmaxtime-settings-maxtime-duration" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]maxtime | /settings maxtime &lt;duration&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pprefix-settings-prefix-new_prefix" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]prefix | /settings prefix [new_prefix]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presetdata" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]resetdata
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settings-remove-setting" class="md-nav__link">
+    <span class="md-ellipsis">
+      /settings remove &lt;setting&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psetdj-setting-djrole-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]setdj | /setting djrole [role]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psetqueuelimits-settings-setqueuelimts-number" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]setqueuelimits | /settings setqueuelimts &lt;number&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psettings-settings-current" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]settings | /settings current
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pshownewsongonly-settings-global-shownewsongonly-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]shownewsongonly | /settings global shownewsongonly &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#psongvcstatus-settings-songvcstatus-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]songvcstatus | /settings songvcstatus &lt;toggle&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pstreamtype-settings-global-streamtype-encoder" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]streamtype | /settings global streamtype &lt;encoder&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ptextchannel-settings-textchannel-channel" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]textchannel | /settings textchannel [channel]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pthumbnailsize-settings-thumbnailsize-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]thumbnailsize | /settings thumbnailsize &lt;size&gt;
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pvotepercentage-settings-votepercentage-percentage" class="md-nav__link">
+    <span class="md-ellipsis">
+      [p]votepercentage | /settings votepercentage &lt;percentage&gt;
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="commands">Commands</h1>
+<p>These are all of the commands available to the bot, including their aliases and corresponding slash commands.</p>
+<div class="admonition quote">
+<p class="admonition-title">Legend</p>
+<ul>
+<li>Commands are formatted as <code>[p]prefix | [p]alias | /slash command &lt;arguments&gt;</code></li>
+<li><code>[p]</code> is your bot's prefix.</li>
+<li>Arguments surrounded in <code>&lt;&gt;</code> are required.</li>
+<li>Arguments surrounded in <code>[]</code> are optional. </li>
+<li>Argument surrounded in quotation marks (e.g. &lt;"name"&gt;) must use quotation marks! This only applies to prefix commands, not slash commands</li>
+</ul>
+</div>
+<h2 id="core">Core</h2>
+<p>Commands related to core functionality of the bot.</p>
+<h3 id="pabout-core-about">[p]about | /core about</h3>
+<p>Displays information about the bot.</p>
+<h3 id="peval-core-owner-eval-code">[p]eval | /core owner eval <code>&lt;code&gt;</code></h3>
+<p><span class="badge-danger"><img alt="🚫" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6ab.svg" title=":no_entry_sign:" /> Bot owner only<span></p>
+<p>Executes Javascript code.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;code&gt;</code></td>
+<td>string</td>
+<td>The code to execute.</td>
+</tr>
+</tbody>
+</table>
+<p>The following variables will always be available when running the command:</p>
+<ul>
+<li><code>Discord</code> - discord.js</li>
+<li><code>player</code> - Active player in the server, if any.</li>
+<li><code>queue</code> - Queue of active player, if any.</li>
+<li><code>message</code> - Message object (Prefix command only.)</li>
+<li><code>ctx</code> - Command context (Slash command only.)</li>
+<li><code>_</code> - lodash</li>
+<li><code>prettyBytes</code> - pretty-bytes</li>
+<li><code>prettyMs</code> - prettyMs</li>
+<li><code>colonNotation</code> - colon-notation</li>
+<li><code>commonTags</code> - common-tags</li>
+<li><code>Genius</code> - genius-lyrics</li>
+</ul>
+<div class="admonition danger">
+<p class="admonition-title">With great power comes great responsibility!</p>
+<p>Eval can be dangerous if used improperly! The command is disabled by default, but you can enable it through the bot's environment variables by setting <strong>USE_EVAL</strong> to <code>true</code>. Do not enable this command unless you know exactly what you're doing. If someone is telling you to enable the eval command to run a script, this will most likely compromise the security of your Discord bot!</p>
+</div>
+<h3 id="phelp-command">[p]help <code>[command]</code></h3>
+<p><span class="badge-info"><img alt="ℹ" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2139.svg" title=":information_source:" /> Prefix command only</span></p>
+<p>Displays available commands and how to use them.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[command]</code></td>
+<td>string</td>
+<td>The command you want to know more about. Shows you how to use its syntax and what permissions it requires.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="plicense-core-license">[p]license | /core license</h3>
+<p>View this program\'s license.</p>
+<h3 id="pping-core-ping">[p]ping | /core ping</h3>
+<p>Shows the bot\'s latency.</p>
+<h3 id="preload-core-owner-reload-reload_slash">[p]reload | /core owner reload <code>[reload_slash]</code></h3>
+<p><span class="badge-danger"><img alt="🚫" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6ab.svg" title=":no_entry_sign:" /> Bot owner only<span></p>
+<p>Reloads all of the bot's commands and listeners.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[reload_slash]</code></td>
+<td>boolean</td>
+<td>Whether to reload the application's slash commands. Either <code>true</code> or <code>false</code>. Default is <code>false</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="psetavatar-core-owner-setavatar-image-url">[p]setavatar | /core owner setavatar <code>&lt;image&gt; [url]</code></h3>
+<p><span class="badge-danger"><img alt="🚫" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6ab.svg" title=":no_entry_sign:" /> Bot owner only<span></p>
+<p>Changes the bot's avatar. If no arguments are provided, removes the avatar.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;image&gt;</code></td>
+<td>Attachment</td>
+<td>The attached image to use for the avatar. Supports GIF, JPEG, or PNG formats.</td>
+</tr>
+<tr>
+<td><code>[url]</code></td>
+<td>string</td>
+<td>The URL of an image to use for the avatar. Supports GIF, JPEG, or PNG formats.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="psetbanner-core-owner-setbanner-image-url">[p]setbanner | /core owner setbanner <code>&lt;image&gt; [url]</code></h3>
+<p><span class="badge-danger"><img alt="🚫" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6ab.svg" title=":no_entry_sign:" /> Bot owner only<span></p>
+<p>Changes the bot's profile banner. If no arguments are provided, removes the banner.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;image&gt;</code></td>
+<td>Attachment</td>
+<td>The attached image to use for the banner. Supports GIF, JPEG, or PNG formats.</td>
+</tr>
+<tr>
+<td><code>[url]</code></td>
+<td>string</td>
+<td>The URL of an image to use for the avatar. Supports GIF, JPEG, or PNG formats.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="psetgame-core-owner-setgame-type-status">[p]setgame | /core owner setgame <code>[type] &lt;status&gt;</code></h3>
+<p><span class="badge-danger"><img alt="🚫" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6ab.svg" title=":no_entry_sign:" /> Bot owner only<span></p>
+<p>Changes the bot's playing status.</p>
+<p>Available types are <code>playing</code>, <code>watching</code>, <code>listening</code>, <code>custom</code>, and <code>competing</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[type]</code></td>
+<td>string</td>
+<td>The type of status to set. Default is <code>custom</code>.</td>
+</tr>
+<tr>
+<td><code>&lt;status&gt;</code></td>
+<td>string</td>
+<td>The overall status for the bot to use.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pshutdown-core-owner-shutdown-reason">[p]shutdown | /core owner shutdown <code>[reason]</code></h3>
+<p><span class="badge-danger"><img alt="🚫" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6ab.svg" title=":no_entry_sign:" /> Bot owner only<span></p>
+<p>Shuts down the bot.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[reason]</code></td>
+<td>string</td>
+<td>The reason for shutting down the bot.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="psudo-core-owner-sudo">[p]sudo | /core owner sudo</h3>
+<p><span class="badge-danger"><img alt="🚫" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6ab.svg" title=":no_entry_sign:" /> Bot owner only<span></p>
+<p>Grants or denies the bot owner DJ permissions in the given server.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Sudo access is per server, not globally. Sudo is also disabled by default and resets everytime the bot restarts.</p>
+</div>
+<h2 id="filters">Filters</h2>
+<p>Commands to add or remove filters from the player. The commands in this category will only be available to DJs if <strong>Allow Filters</strong> is off.</p>
+<h3 id="pbassboost-pbass-filter-bassboost-gain">[p]bassboost | [p]bass | /filter bassboost <code>&lt;gain&gt;</code></h3>
+<p>Boosts the bass of the player.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;gain&gt;</code></td>
+<td>float</td>
+<td>The gain of the bass boost. Must be between <code>0.01-100</code> or <code>off</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pcrusher-filter-crusher-sample-bits-mode">[p]crusher | /filter crusher <code>&lt;sample&gt; [bits] [mode]</code></h3>
+<p>Crushes the audio without changing the bit depth. Makes it sound more harsh and "digital".</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;sample&gt;</code></td>
+<td>number</td>
+<td>The sample reduction. Must be between <code>1-250</code> or <code>off</code>.</td>
+</tr>
+<tr>
+<td><code>[bits]</code></td>
+<td>number</td>
+<td>The bit reduction. Must be between 1-64. Default is <code>8</code>.</td>
+</tr>
+<tr>
+<td><code>[mode]</code></td>
+<td>string</td>
+<td>Changes logarithmic mode to either linear (lin) or logarithmic (log). Default is <code>lin</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pcrystalize-filter-crystalize-intensity">[p]crystalize | /filter crystalize <code>&lt;intensity&gt;</code></h3>
+<p>Sharpens or softens the audio quality.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;intensity&gt;</code></td>
+<td>float</td>
+<td>The intensity of the effect. Must be between <code>-10</code> to <code>10</code> or <code>off</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pcustomfilter-pcf-filter-customfilter-argument">[p]customfilter | [p]cf | /filter customfilter <code>&lt;argument&gt;</code></h3>
+<p><span class="badge-danger"><img alt="🚫" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6ab.svg" title=":no_entry_sign:" /> Bot owner only<span></p>
+<p>Adds a custom FFMPEG filter to the player.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;argument&gt;</code></td>
+<td>string</td>
+<td>The filter argument to provide to FFMPEG.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If the argument is invalid or not supported by FFMPEG, the stream will prematurely end.</p>
+</div>
+<h3 id="filter-remove-filter">/filter remove <code>&lt;filter&gt;</code></h3>
+<p><span class="badge-info"><img alt="ℹ" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2139.svg" title=":information_source:" /> Slash command only<span></p>
+<p>Remove some or all filters active on the player.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;filter&gt;</code></td>
+<td>string</td>
+<td>The filter to remove from the player.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pfilteroff-pfoff-filter-remove-filterall">[p]filteroff | [p]foff | /filter remove filter:"all"</h3>
+<p>Removes all filters from the player.</p>
+<h3 id="ppitch-filter-pitch-rate">[p]pitch | /filter pitch <code>&lt;rate&gt;</code></h3>
+<p>Changes the pitch of the playing track.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;rate&gt;</code></td>
+<td>float</td>
+<td>The rate to change. Must be between <code>0.1-10</code> or <code>off</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ppulsator-filter-pulsator-frequency">[p]pulsator | /filter pulsator <code>&lt;frequency&gt;</code></h3>
+<p>Adds a pulsating effect to the audio.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;frequency&gt;</code></td>
+<td>float</td>
+<td>The frequency of the effect in Hz. Must be between 0.01-100 or off.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="preverse-filter-reverse">[p]reverse | /filter reverse</h3>
+<p>Plays the track in reverse. Disables if reverse is already enabled.</p>
+<h3 id="ptempo-filter-tempo-rate">[p]tempo | /filter tempo <code>&lt;rate&gt;</code></h3>
+<p>Changes the tempo of the playing track.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;rate&gt;</code></td>
+<td>float</td>
+<td>The rate to change. Must be between <code>0.1-10</code> or <code>off</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ptremolo-filter-tremolo-depth-frequency">[p]tremolo | /filter tremolo <code>&lt;depth&gt; [frequency]</code></h3>
+<p>Adds a tremolo effect to the player.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;depth&gt;</code></td>
+<td>float</td>
+<td>The depth of the tremolo. Must be between <code>0.1-1</code> or <code>off</code>.</td>
+</tr>
+<tr>
+<td><code>[frequency]</code></td>
+<td>float</td>
+<td>The frequency of the tremolo. Minimum value is <code>0.1</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pvibrato-filter-vibrato-depth-frequency">[p]vibrato | /filter vibrato <code>&lt;depth&gt; [frequency]</code></h3>
+<p>Adds a vibrato effect to the player.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;depth&gt;</code></td>
+<td>float</td>
+<td>The depth of the tremolo. Must be between <code>0.1-1</code> or <code>off</code>.</td>
+</tr>
+<tr>
+<td><code>[frequency]</code></td>
+<td>float</td>
+<td>The frequency of the tremolo. Minimum value is <code>0.1</code>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="player">Player</h2>
+<p>The main commands of the audio player.</p>
+<h3 id="message-apps-add-to-queue">Message &gt; Apps &gt; Add to queue</h3>
+<p><span class="badge-info"><img alt="ℹ" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2139.svg" title=":information_source:" /> Message Context Menu only. <a href="https://discord.com/developers/docs/interactions/application-commands#message-commands">Learn More</a></span></p>
+<p>Adds a track to the queue by using the message's content as a search query.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This command requires the <strong>Message Content</strong> privileged intent to work.</p>
+</div>
+<h3 id="pbindchannel-pbindto-player-bindchannel-channel">[p]bindchannel | [p]bindto | /player bindchannel <code>[channel]</code></h3>
+<p><span class="badge-info"><img alt="🎵" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b5.svg" title=":musical_note:" /> Requires DJ permissions</span></p>
+<p>Changes the player's currently binded text channel to a different one.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[channel]</code></td>
+<td>Text Channel</td>
+<td>The new text channel to bind to. Also supports text-in-voice channels, forum channels, and threads. If nothing was provided or the channel is invalid, binds to the text channel that the command was used in.</td>
+</tr>
+<tr>
+<td>s</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>### [p]clearqueue</td>
+<td>[p]clear</td>
+<td>/queue clear</td>
+</tr>
+<tr>
+<td><span class="badge-info"><img alt="🎶" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b6.svg" title=":notes:" /> DJ permissions required with 2 or more people.</span></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Clears the player's queue for this server.</p>
+<h3 id="pdisconnect-pleave-player-leave">[p]disconnect | [p]leave | /player leave</h3>
+<p><span class="badge-info"><img alt="🎶" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b6.svg" title=":notes:" /> DJ permissions required with 2 or more people.</span></p>
+<p>Disconnects from the current voice channel.</p>
+<h3 id="pearrape-player-earrape">[p]earrape | /player earrape</h3>
+<p>Changes the volume of the player to 69420%. The ratio that no man can withstand.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This command is only usable while <strong>Free Volume</strong> is enabled.</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Hearing loss or damage to your equipment can occur if the player's volume is set above 200%!</p>
+</div>
+<h3 id="pforceskip-pfs-skip-force">[p]forceskip | [p]fs | /skip force</h3>
+<p><span class="badge-info"><img alt="🎵" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b5.svg" title=":musical_note:" /> Requires DJ permissions</span></p>
+<p>Force skips the currently playing song, bypassing votes.</p>
+<h3 id="pgrab-pyoink-player-grab">[p]grab | [p]yoink | /player grab</h3>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This command can be used by everyone while <strong>DJ Mode</strong> is active.</p>
+</div>
+<p>Saves the currently playing track to your DMs.</p>
+<h3 id="piheartradio-pihr-play-radio-iheartradio-station">[p]iheartradio | [p]ihr | /play radio iheartradio <code>&lt;station&gt;</code></h3>
+<p>Play a iHeartRadio station.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;search&gt;</code></td>
+<td>string</td>
+<td>The station to search for. The first result is queued.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="plyrics-player-lyrics-query">[p]lyrics | /player lyrics <code>[query]</code></h3>
+<p>Retrieves lyrics from the playing track or from search query.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[query]</code></td>
+<td>string</td>
+<td>The search query to find lyrics. If nothing is provided, uses the currently playing track.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This command can be used without the player being active.</p>
+</div>
+<h3 id="pmove-queue-move-track-position">[p]move | /queue move <code>&lt;track&gt;</code> <code>[position]</code></h3>
+<p>Moves a track in the queue to a new position.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;track&gt;</code></td>
+<td>number</td>
+<td>The track to move</td>
+</tr>
+<tr>
+<td><code>[position]</code></td>
+<td>number</td>
+<td>The new position in the queue. If omitted, moves the selection to the first position in the queue.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pnowplaying-pnp-player-nowplaying">[p]nowplaying | [p]np | /player nowplaying</h3>
+<p>Shows the currently playing track.</p>
+<h3 id="ppause-player-pause">[p]pause | /player pause</h3>
+<p><span class="badge-info"><img alt="🎶" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b6.svg" title=":notes:" /> DJ permissions required with 2 or more people.</span></p>
+<p>Pauses the player.</p>
+<h3 id="pplay-pp-play-track-play-attachment-urlsearchattachment">[p]play | [p]p | /play track | /play attachment <code>&lt;url/search/attachment&gt;</code></h3>
+<p>Adds a track to the queue from a URL, search query, or an attachment.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;url/search/attachment&gt;</code></td>
+<td>string or Attachment</td>
+<td>The URL, search query, or attachment to load. Only audio and video attachments are supported.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pplaynow-pnp-play-now-urlsearchattachment">[p]playnow | [p]np | /play now <code>&lt;url/search/attachment&gt;</code></h3>
+<p><span class="badge-info"><img alt="🎶" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b6.svg" title=":notes:" /> DJ permissions required with 2 or more people.</span></p>
+<p>Adds a track to the queue and skips the currently playing track, if there was a track playing.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;url/search/attachment&gt;</code></td>
+<td>string or Attachment</td>
+<td>The URL, search query, or attachment to load. Only audio and video attachments are supported.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="play-playlist-name">/play playlist <code>&lt;name&gt;</code></h3>
+<p><span class="badge-info"><img alt="ℹ" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2139.svg" title=":information_source:" /> Slash command only</span></p>
+<p>Plays a custom playlist.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;name&gt;</code></td>
+<td>string</td>
+<td>The name of the playlist to play.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If you want to play an online playlist, consider using <code>/play track</code> or <code>[p]play</code> instead. This command is used to load server playlists.</p>
+</div>
+<h3 id="play-silently-query">/play silently <code>&lt;query&gt;</code></h3>
+<p><span class="badge-info"><img alt="ℹ" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2139.svg" title=":information_source:" /> Slash command only</span></p>
+<p>Plays a track silently. It will not be sent in chat, and will be hidden from others in the queue.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;query&gt;</code></td>
+<td>string</td>
+<td>The track to silently play.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This command is only available to DJs if <strong>Allow Silent Tracks</strong> is off.</p>
+</div>
+<h3 id="pqueue-pq-queue-now-show_hidden">[p]queue | [p]q | /queue now <code>[show_hidden]</code></h3>
+<p>View the queue for this server.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[show_hidden]</code></td>
+<td>string</td>
+<td>(Slash command only) Reveals silently added tracks. You can reveal your tracks, or show all hidden tracks.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Showing all tracks.</p>
+<p>This argument to view all hidden tracks can only be used by DJs.</p>
+</div>
+<h3 id="premove-queue-remove-queue_entrystart-end">[p]remove | /queue remove <code>&lt;queue_entry/start&gt; [end]</code></h3>
+<p><span class="badge-info"><img alt="🎶" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b6.svg" title=":notes:" /> DJ permissions required with 2 or more people.</span></p>
+<p>Removes an entry or multiple entries from the queue.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;queue_entry/start&gt;</code></td>
+<td>number</td>
+<td>The queue entry to remove from the queue, or the starting position.</td>
+</tr>
+<tr>
+<td><code>[end]</code></td>
+<td>number</td>
+<td>The end position for removing multiple entries. Every entry from the starting to end position will be removed from the queue.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="prepeat-ploop-player-repeat-mode">[p]repeat | [p]loop | /player repeat <code>[mode]</code></h3>
+<p><span class="badge-info"><img alt="🎶" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b6.svg" title=":notes:" /> DJ permissions required with 2 or more people.</span></p>
+<p>Toggles repeat mode for the player.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[mode]</code></td>
+<td>string</td>
+<td>The mode to apply for repeat mode. Valid options are <strong>off</strong>, <strong>song</strong>, or <strong>queue</strong>. Default is <strong>song</strong>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="presume-player-resume">[p]resume | /player resume</h3>
+<p><span class="badge-info"><img alt="🎶" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b6.svg" title=":notes:" /> DJ permissions required with 2 or more people.</span></p>
+<p>Unpauses the player, resuming playback.</p>
+<h3 id="preversequeue-prq-queue-reverse">[p]reversequeue | [p]rq | /queue reverse</h3>
+<p><span class="badge-info"><img alt="🎶" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b6.svg" title=":notes:" /> DJ permissions required with 2 or more people.</span></p>
+<p>Reverses the order of the queue.</p>
+<h3 id="psearch-search-query">[p]search | /search <code>&lt;query&gt;</code></h3>
+<p>Searches for a track to play.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;query&gt;</code></td>
+<td>string</td>
+<td>The query to search for.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pseek-player-seek-time">[p]seek | /player seek <code>&lt;time&gt;</code></h3>
+<p><span class="badge-info"><img alt="🎶" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b6.svg" title=":notes:" /> DJ permissions required with 2 or more people.</span></p>
+<p>Sets the playing time of the track to a new position.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;time&gt;</code></td>
+<td>number or Notation</td>
+<td>The time of the track to seek to in colon notation or in milliseconds.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pshuffle-queue-shuffle">[p]shuffle | /queue shuffle</h3>
+<p><span class="badge-info"><img alt="🎶" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b6.svg" title=":notes:" /> DJ permissions required with 2 or more people.</span></p>
+<p>Randomizes the entries in the queue.</p>
+<h3 id="pskip-ps-skip-track">[p]skip | [p]s | /skip track</h3>
+<p>Skips the currently playing song, or vote to skip the track if the voice channel has more than 3 people. The track will skip if the required number of votes has been reached.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If you have the <strong>Manage Server</strong> permission, you can change how the number of votes are calculated by using <code>/settings votepercentage</code> or <code>[p]votepercentage</code>.</p>
+</div>
+<h3 id="pskipto-pjump-skip-jump-queue_entry">[p]skipto | [p]jump | /skip jump <code>&lt;queue_entry&gt;</code></h3>
+<p><span class="badge-info"><img alt="🎶" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b6.svg" title=":notes:" /> DJ permissions required with 2 or more people.</span></p>
+<p>Skips to the specified entry in the queue.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;queue_entry&gt;</code></td>
+<td>number</td>
+<td>The number of the queue entry to skip to. Skips all other entries of the queue.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pstartover-prestart-player-startover">[p]startover | [p]restart | /player startover</h3>
+<p><span class="badge-info"><img alt="🎶" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b6.svg" title=":notes:" /> DJ permissions required with 2 or more people.</span></p>
+<p>Restarts the currently playing song.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If the currently playing track is a live stream, this command can be used to refresh the live stream instead.</p>
+</div>
+<h3 id="pstop-player-stop">[p]stop | /player stop</h3>
+<p><span class="badge-info"><img alt="🎶" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f3b6.svg" title=":notes:" /> DJ permissions required with 2 or more people.</span></p>
+<p>Destroys the player.</p>
+<h3 id="psummon-pjoin-player-join">[p]summon | [p]join | /player join</h3>
+<p>Summons the bot to a voice channel.</p>
+<h3 id="pvolume-pvol-player-volume-viewset-number">[p]volume | [p]vol | /player volume view/set <code>[number]</code></h3>
+<p>Views or changes the volume of the player.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[number]</code></td>
+<td>number</td>
+<td>The percentage of the new volume to set. If nothing is provided, shows the current volume of the player. This argument is required when using <code>/player volume set</code>.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>If <strong>Free Volume</strong> is disabled, the maximum value allowed is 200%.</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Hearing loss or damage to your equipment can occur if the player's volume is set above 200%!</p>
+</div>
+<h2 id="playlists">Playlists</h2>
+<p>Commands used to manage playlists on a server. All commands in this category require DJ permissions.</p>
+<h3 id="pplaylist-add-ppladd-playlist-add-name-track">[p]playlist-add | [p]pladd | /playlist add <code>&lt;"name"&gt;</code> <code>[track]</code></h3>
+<p>Adds a track to a playlist.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;name&gt;</code></td>
+<td>string</td>
+<td>The name of the playlist to add tracks to.</td>
+</tr>
+<tr>
+<td><code>[track]</code></td>
+<td>URL</td>
+<td>A track to add to the playlist. If nothing was provided and a player is currently playing a track, adds the currently playing track to the playlist.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>To add tracks, you must be the user that created the playlist, unless you have the <strong>Administrator</strong> permission.</p>
+</div>
+<h3 id="pplaylist-clone-pplclone-playlist-clone-name-clone_name">[p]playlist-clone | [p]plclone | /playlist clone <code>&lt;"name"&gt;</code> <code>["clone_name"]</code></h3>
+<p>Creates a playlist by cloning an existing one.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;name&gt;</code></td>
+<td>string</td>
+<td>The name of the playlist to clone</td>
+</tr>
+<tr>
+<td><code>[clone_name]</code></td>
+<td>string</td>
+<td>The name to give to the cloned playlist. If nothing was provided, affixes "- Copy" to the original name.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pplaylist-delete-ppldelete-playlist-delete-name">[p]playlist-delete | [p]pldelete | /playlist delete <code>&lt;name&gt;</code></h3>
+<p>Deletes a playlist.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;name&gt;</code></td>
+<td>string</td>
+<td>The name of the playlist to delete.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>To delete a playlist, you must be the user that created the playlist, unless you have the <strong>Administrator</strong> permission.</p>
+</div>
+<h3 id="pplaylist-new-pplnew-playlist-new-name">[p]playlist-new | [p]plnew | /playlist new <code>&lt;name&gt;</code></h3>
+<p>Creates a new playlist.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;name&gt;</code></td>
+<td>string</td>
+<td>The name to give to the new playlist.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pplaylist-purge-pplpurge-playlist-purge">[p]playlist-purge | [p]plpurge | /playlist purge</h3>
+<p><span class="badge-danger"><img alt="❌" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/274c.svg" title=":x:" /> Administrators only</span></p>
+<p>Deletes all playlists on the server.</p>
+<h3 id="pplaylist-remove-pplremove-playlist-remove-name-index_or_start-end">[p]playlist-remove | [p]plremove | /playlist remove <code>&lt;"name"&gt;</code> <code>&lt;index_or_start&gt;</code> <code>[end]</code></h3>
+<p>Removes a track or multiple tracks from a playlist.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;name&gt;</code></td>
+<td>string</td>
+<td>The name of the playlist to remove tracks.</td>
+</tr>
+<tr>
+<td><code>&lt;index_or_start&gt;</code></td>
+<td>number</td>
+<td>The track or the starting position to remove multiple tracks from the playlist.</td>
+</tr>
+<tr>
+<td><code>[end]</code></td>
+<td>number</td>
+<td>The ending position to remove multiple tracks.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>To remove tracks, you must be the user that created the playlist, unless you have the <strong>Administrator</strong> permission.</p>
+</div>
+<h3 id="pplaylist-show-pplshow-playlist-show">[p]playlist-show | [p]plshow | /playlist show</h3>
+<p>Lists all playlists on the server.</p>
+<h3 id="pplaylist-view-pplview-playlist-view-name">[p]playlist-view | [p]plview | /playlist view <code>&lt;name&gt;</code></h3>
+<p>List all tracks in a playlist.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;name&gt;</code></td>
+<td>string</td>
+<td>The name of the playlist to view.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="settings">Settings</h2>
+<p>Commands to change the bot's settings. All commands in this category require the <strong>Manage Server</strong> permission unless otherwise specified.</p>
+<h3 id="pallowexplicit-settings-allowexplicit-toggle">[p]allowexplicit | /settings allowexplicit <code>&lt;toggle&gt;</code></h3>
+<p>Toggles the ability to allow age restricted content in the queue.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;toggle&gt;</code></td>
+<td>string or boolean</td>
+<td>Toggles the setting. Either <code>on</code> or <code>off</code>. Default is <code>on</code>.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This setting only applies to tracks that are marked as explicit. All pornographic websites are blocked regardless if this setting is on or not.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Regarding tracks from YouTube.</p>
+<p>If a cookie wasn't provided in <code>cookies.json</code>, you'll still be able to use this command. The player won't be able to play any track that's marked explicit without a valid cookie that allows access to age restricted content.</p>
+</div>
+<h3 id="pallowfilters-settings-allowfilters-toggle">[p]allowfilters | /settings allowfilters <code>&lt;toggle&gt;</code></h3>
+<p>Toggles the ability to allow members to apply filters to the player.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;toggle&gt;</code></td>
+<td>string or boolean</td>
+<td>Toggles the setting. Either <code>on</code> or <code>off</code>. Default is <code>on</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pallowlinks-settings-allowlinks-toggle">[p]allowlinks | /settings allowlinks <code>&lt;toggle&gt;</code></h3>
+<p>Toggles the ability to add songs to the queue from a URL.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;toggle&gt;</code></td>
+<td>string or boolean</td>
+<td>Toggles the setting. Either <code>on</code> or <code>off</code>. Default is <code>on</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pallowsilenttracks-settings-allowsilenttracks-toggle">[p]allowsilenttracks | /settings allowsilenttracks <code>&lt;toggle&gt;</code></h3>
+<p>Toggles the ability to silently add tracks to the queue.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;toggle&gt;</code></td>
+<td>string or boolean</td>
+<td>Toggles the setting. Either <code>on</code> or <code>off</code>. Default is <code>on</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pallowyoutube-settings-global-allowyoutube-toggle">[p]allowyoutube | /settings global allowyoutube <code>&lt;toggle&gt;</code></h3>
+<p><span class="badge-danger"><img alt="🚫" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6ab.svg" title=":no_entry_sign:" /> Bot owner only</span></p>
+<p>Toggles the ability to allow tracks from YouTube to be added to the player.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;toggle&gt;</code></td>
+<td>string or boolean</td>
+<td>Toggles the setting. Either <code>on</code> or <code>off</code>. Default is <code>on</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pblocksong-addremovelist-settings-blocksong-addremovelist-phrase">[p]blocksong add/remove/list | /settings blocksong add/remove/list <code>&lt;phrase&gt;</code></h3>
+<p>Manages the server's list of blocked search phrases.</p>
+<table>
+<thead>
+<tr>
+<th>Subcommand</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>add</td>
+<td>Adds a phrase to the list.</td>
+</tr>
+<tr>
+<td>remove</td>
+<td>Removes a phrase from the list.</td>
+</tr>
+<tr>
+<td>list</td>
+<td>View the current list for the server.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;phrase&gt;</code></td>
+<td>string</td>
+<td>The phrase to add or remove from the list.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pdefaultvolume-settings-defaultvolume-volume">[p]defaultvolume | /settings defaultvolume <code>&lt;volume&gt;</code></h3>
+<p>Changes the bot's default volume when creating a player, or when disabling Earrape.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;volume&gt;</code></td>
+<td>number</td>
+<td>The new default volume for the server. Must be between <code>1</code> to <code>200</code>. Default is <code>100</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pdjmode-settings-djmode-toggle">[p]djmode | /settings djmode <code>&lt;toggle&gt;</code></h3>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>DJs can use this command.</p>
+</div>
+<p>Toggles DJ Mode for the server.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;toggle&gt;</code></td>
+<td>string or boolean</td>
+<td>Toggles the setting. Either <code>on</code> or <code>off</code>. Default is <code>off</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pemptycooldown-settings-emptycooldown-time">[p]emptycooldown | /settings emptycooldown <code>&lt;time&gt;</code></h3>
+<p>Sets how long the bots stays in an empty voice channel.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;time&gt;</code></td>
+<td>number</td>
+<td>The time the bot will stay in seconds.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This settings only works if <strong>Leave on Empty</strong> is on.</p>
+</div>
+<h3 id="pfreevolume-settings-unlimitedvolume-toggle">[p]freevolume | /settings unlimitedvolume <code>&lt;toggle&gt;</code></h3>
+<p>Toggles the ability to change the volume past 200%.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;toggle&gt;</code></td>
+<td>string or boolean</td>
+<td>Toggles the setting. Either <code>on</code> or <code>off</code>. Default is <code>on</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pglobalsettings-settings-global-current">[p]globalsettings | /settings global current</h3>
+<p><span class="badge-danger"><img alt="🚫" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6ab.svg" title=":no_entry_sign:" /> Bot owner only</span></p>
+<p>Shows the bot's current global settings.</p>
+<h3 id="pleaveonempty-settings-leaveonempty-toggle">[p]leaveonempty | /settings leaveonempty <code>&lt;toggle&gt;</code></h3>
+<p>Toggles whether the bot should leave when the voice channel is empty for a period of time.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;toggle&gt;</code></td>
+<td>string or boolean</td>
+<td>Toggles the setting. Either <code>on</code> or <code>off</code>. Default is <code>on</code>.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>When this is active, the bot will leave depending on how long <strong>Empty Cooldown</strong> is set.</p>
+</div>
+<h3 id="pleaveonfinish-settings-leaveonfinish-toggle">[p]leaveonfinish | /settings leaveonfinish <code>&lt;toggle&gt;</code></h3>
+<p>Toggles whether the bot should leave when the end of the queue has been reached.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;toggle&gt;</code></td>
+<td>string or boolean</td>
+<td>Toggles the setting. Either <code>on</code> or <code>off</code>. Default is <code>on</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pleaveonstop-settings-leaveonstop-toggle">[p]leaveonstop | /settings leaveonstop <code>&lt;toggle&gt;</code></h3>
+<p>Toggles whether the bot should leave when the player is stopped.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;toggle&gt;</code></td>
+<td>string or boolean</td>
+<td>Toggles the setting. Either <code>on</code> or <code>off</code>. Default is <code>on</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pmaxtime-settings-maxtime-duration">[p]maxtime | /settings maxtime <code>&lt;duration&gt;</code></h3>
+<p>Restrict members from adding tracks to the queue that exceed the duration set.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;duration&gt;</code></td>
+<td>Notation</td>
+<td>The max duration of the track to limit. Members will be unable to add any tracks to the queue that go past this limit. Default is <code>0</code>. Set to <code>0</code> or <code>none</code> to disable.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pprefix-settings-prefix-new_prefix">[p]prefix | /settings prefix <code>[new_prefix]</code></h3>
+<p>Changes the bot's prefix for this server.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[new_prefix]</code></td>
+<td>string</td>
+<td>The new prefix you want to use. If none was provided, resets the prefix to defaults.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This setting will only affect message based commands, not slash commands. The default prefix defined in the bot's configuration in addition to the bot's mention will always be available.</p>
+</div>
+<h3 id="presetdata">[p]resetdata</h3>
+<p><span class="badge-info"><img alt="ℹ" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2139.svg" title=":information_source:" /> Prefix command only</span>
+<span class="badge-danger"><img alt="❌" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/274c.svg" title=":x:" /> Administrators only</span></p>
+<p>Resets the bot's settings for the server to its default settings.</p>
+<h3 id="settings-remove-setting">/settings remove <code>&lt;setting&gt;</code></h3>
+<p><span class="badge-info"><img alt="ℹ" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2139.svg" title=":information_source:" /> Slash command only<span></p>
+<p>Revert a setting to its default value.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;setting&gt;</code></td>
+<td>string</td>
+<td>The setting you would like to revert.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="psetdj-setting-djrole-role">[p]setdj | /setting djrole <code>[role]</code></h3>
+<p>Sets the DJ role for the server.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[role]</code></td>
+<td>Role</td>
+<td>The role you would like to set. Can be the name, the ID, or a mention of the role. If none was provided, removes the DJ role.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="psetqueuelimits-settings-setqueuelimts-number">[p]setqueuelimits | /settings setqueuelimts <code>&lt;number&gt;</code></h3>
+<p>Limits the number of entries that members can add to the queue.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;number&gt;</code></td>
+<td>number</td>
+<td>The numbers of entries to limit for members.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="psettings-settings-current">[p]settings | /settings current</h3>
+<p>Displays the bot's current settings for the server.</p>
+<h3 id="pshownewsongonly-settings-global-shownewsongonly-toggle">[p]shownewsongonly | /settings global shownewsongonly <code>&lt;toggle&gt;</code></h3>
+<p><span class="badge-danger"><img alt="🚫" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6ab.svg" title=":no_entry_sign:" /> Bot owner only<span></p>
+<p>Toggles whether the Now Playing alerts are shown for new songs only.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;toggle&gt;</code></td>
+<td>string or boolean</td>
+<td>Toggles the setting. Either <code>on</code> or <code>off</code>. Default is <code>on</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="psongvcstatus-settings-songvcstatus-toggle">[p]songvcstatus | /settings songvcstatus <code>&lt;toggle&gt;</code></h3>
+<p>Toggles whether the bot will set the playing track's title as a status for the voice channel.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;toggle&gt;</code></td>
+<td>boolean</td>
+<td>The toggle of the setting.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Experimental</p>
+<p>This feature uses an undocumented endpoint in Discord's API and may change at anytime.</p>
+</div>
+<h3 id="pstreamtype-settings-global-streamtype-encoder">[p]streamtype | /settings global streamtype <code>&lt;encoder&gt;</code></h3>
+<p><span class="badge-danger"><img alt="🚫" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f6ab.svg" title=":no_entry_sign:" /> Bot owner only<span></p>
+<p>Selects which audio encoder the bot should use during streams.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;encoder&gt;</code></td>
+<td>string</td>
+<td>The audio encoder to use.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Encoder</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>opus</td>
+<td>Uses the Opus encoder. Better quality, uses more resources.</td>
+</tr>
+<tr>
+<td>raw</td>
+<td>Uses a RAW encoder. Better performance, uses less resources.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ptextchannel-settings-textchannel-channel">[p]textchannel | /settings textchannel <code>[channel]</code></h3>
+<p>Sets the text channel to use for music commands.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[channel]</code></td>
+<td>Text/Voice Channel</td>
+<td>The text or voice channel to apply. Can be the channel's mention or the channel's ID. If none is provided, all channels will be available.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pthumbnailsize-settings-thumbnailsize-size">[p]thumbnailsize | /settings thumbnailsize <code>&lt;size&gt;</code></h3>
+<p>Changes the track's thumbnail size of the player's "Now Playing" embeds.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;size&gt;</code></td>
+<td>string</td>
+<td>The size of the track's image. Either <code>small</code> or <code>large</code>. Default is <code>small</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pvotepercentage-settings-votepercentage-percentage">[p]votepercentage | /settings votepercentage <code>&lt;percentage&gt;</code></h3>
+<p>Changes the vote-skip percentage requirement for placing votes to skip a track.</p>
+<table>
+<thead>
+<tr>
+<th>Arguments</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;percentage&gt;</code></td>
+<td>float</td>
+<td>The percentage to set. Set to 0 to disable, or 100 to require everyone to vote. Default is 50.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../changelog/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Changelog">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Changelog
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../supported_sites/" class="md-footer__link md-footer__link--next" aria-label="Next: Supported Sites">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Supported Sites
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.tooltips", "content.code.copy", "navigation.sections", "navigation.top", "navigation.prune", "navigation.path", "navigation.indexes", "navigation.footer"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+    
+  </body>
+</html>

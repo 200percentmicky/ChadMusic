@@ -1,0 +1,1562 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../customization/">
+      
+      
+      
+      <link rel="icon" href="../../assets/deejaytreefiddy.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.3">
+    
+    
+      
+        <title>Environment Variables - ChadMusic</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.d7758b05.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/badge.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#environment-variables" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ChadMusic" class="md-header__button md-logo" aria-label="ChadMusic" data-md-component="logo">
+      
+  <img src="../../assets/deejaytreefiddy.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ChadMusic
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Environment Variables
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue"  aria-label="Lights on! Click to toggle."  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Lights on! Click to toggle." for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="blue"  aria-label="Lights off... Click to toggle."  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Lights off... Click to toggle." for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/200percentmicky/chadmusic" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    200percentmicky/chadmusic
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ChadMusic" class="md-nav__button md-logo" aria-label="ChadMusic" data-md-component="logo">
+      
+  <img src="../../assets/deejaytreefiddy.png" alt="logo">
+
+    </a>
+    ChadMusic
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/200percentmicky/chadmusic" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    200percentmicky/chadmusic
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Changelog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../commands/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Commands
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../supported_sites/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supported Sites
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Setup
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Setup
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/getting_started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/install_node/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. Installing Node.js
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/install_git/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Installing git
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/install_ffmpeg/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Downloading FFmpeg
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/creating_app/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Creating your bot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/cloning_the_bot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5. Cloning the bot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/install_packages/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6. Installing Packages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/starting_the_bot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7. Starting the bot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Configuration
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Configuration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customization
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Environment Variables
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Environment Variables
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#client-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Client Configuration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Client Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#token" class="md-nav__link">
+    <span class="md-ellipsis">
+      TOKEN
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prefix" class="md-nav__link">
+    <span class="md-ellipsis">
+      PREFIX
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app_id" class="md-nav__link">
+    <span class="md-ellipsis">
+      APP_ID
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public_key" class="md-nav__link">
+    <span class="md-ellipsis">
+      PUBLIC_KEY
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#owner_id" class="md-nav__link">
+    <span class="md-ellipsis">
+      OWNER_ID
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ipv6_block" class="md-nav__link">
+    <span class="md-ellipsis">
+      IPV6_BLOCK
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#proxy" class="md-nav__link">
+    <span class="md-ellipsis">
+      PROXY
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ffmpeg_path" class="md-nav__link">
+    <span class="md-ellipsis">
+      FFMPEG_PATH
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sharding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sharding
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sharding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sharding_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      SHARDING
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shards" class="md-nav__link">
+    <span class="md-ellipsis">
+      SHARDS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shards_per_cluster" class="md-nav__link">
+    <span class="md-ellipsis">
+      SHARDS_PER_CLUSTER
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plugins
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Plugins">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#genius_token" class="md-nav__link">
+    <span class="md-ellipsis">
+      GENIUS_TOKEN
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#soundcloud_client_id" class="md-nav__link">
+    <span class="md-ellipsis">
+      SOUNDCLOUD_CLIENT_ID
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#soundcloud_oauth_token" class="md-nav__link">
+    <span class="md-ellipsis">
+      SOUNDCLOUD_OAUTH_TOKEN
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spotify_client_id" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPOTIFY_CLIENT_ID
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spotify_client_secret" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPOTIFY_CLIENT_SECRET
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spotify_top_tracks_country" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPOTIFY_TOP_TRACKS_COUNTRY
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spotify_emit_events_after_fetching" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPOTIFY_EMIT_EVENTS_AFTER_FETCHING
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spotify_parallel" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPOTIFY_PARALLEL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update_ytdlp" class="md-nav__link">
+    <span class="md-ellipsis">
+      UPDATE_YTDLP
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#development" class="md-nav__link">
+    <span class="md-ellipsis">
+      Development
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Development">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dev_guild" class="md-nav__link">
+    <span class="md-ellipsis">
+      DEV_GUILD
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use_eval" class="md-nav__link">
+    <span class="md-ellipsis">
+      USE_EVAL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use_console" class="md-nav__link">
+    <span class="md-ellipsis">
+      USE_CONSOLE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debug_logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      DEBUG_LOGGING
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ffmpeg_debug_logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      FFMPEG_DEBUG_LOGGING
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete_invalid_commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      DELETE_INVALID_COMMANDS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bug_channel" class="md-nav__link">
+    <span class="md-ellipsis">
+      BUG_CHANNEL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-cookies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Cookies
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#client-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Client Configuration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Client Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#token" class="md-nav__link">
+    <span class="md-ellipsis">
+      TOKEN
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prefix" class="md-nav__link">
+    <span class="md-ellipsis">
+      PREFIX
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app_id" class="md-nav__link">
+    <span class="md-ellipsis">
+      APP_ID
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#public_key" class="md-nav__link">
+    <span class="md-ellipsis">
+      PUBLIC_KEY
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#owner_id" class="md-nav__link">
+    <span class="md-ellipsis">
+      OWNER_ID
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ipv6_block" class="md-nav__link">
+    <span class="md-ellipsis">
+      IPV6_BLOCK
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#proxy" class="md-nav__link">
+    <span class="md-ellipsis">
+      PROXY
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ffmpeg_path" class="md-nav__link">
+    <span class="md-ellipsis">
+      FFMPEG_PATH
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sharding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sharding
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sharding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sharding_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      SHARDING
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shards" class="md-nav__link">
+    <span class="md-ellipsis">
+      SHARDS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shards_per_cluster" class="md-nav__link">
+    <span class="md-ellipsis">
+      SHARDS_PER_CLUSTER
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plugins
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Plugins">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#genius_token" class="md-nav__link">
+    <span class="md-ellipsis">
+      GENIUS_TOKEN
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#soundcloud_client_id" class="md-nav__link">
+    <span class="md-ellipsis">
+      SOUNDCLOUD_CLIENT_ID
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#soundcloud_oauth_token" class="md-nav__link">
+    <span class="md-ellipsis">
+      SOUNDCLOUD_OAUTH_TOKEN
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spotify_client_id" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPOTIFY_CLIENT_ID
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spotify_client_secret" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPOTIFY_CLIENT_SECRET
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spotify_top_tracks_country" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPOTIFY_TOP_TRACKS_COUNTRY
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spotify_emit_events_after_fetching" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPOTIFY_EMIT_EVENTS_AFTER_FETCHING
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spotify_parallel" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPOTIFY_PARALLEL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update_ytdlp" class="md-nav__link">
+    <span class="md-ellipsis">
+      UPDATE_YTDLP
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#development" class="md-nav__link">
+    <span class="md-ellipsis">
+      Development
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Development">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dev_guild" class="md-nav__link">
+    <span class="md-ellipsis">
+      DEV_GUILD
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use_eval" class="md-nav__link">
+    <span class="md-ellipsis">
+      USE_EVAL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use_console" class="md-nav__link">
+    <span class="md-ellipsis">
+      USE_CONSOLE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debug_logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      DEBUG_LOGGING
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ffmpeg_debug_logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      FFMPEG_DEBUG_LOGGING
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete_invalid_commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      DELETE_INVALID_COMMANDS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bug_channel" class="md-nav__link">
+    <span class="md-ellipsis">
+      BUG_CHANNEL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-cookies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Cookies
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="environment-variables">Environment Variables</h1>
+<p>ChadMusic utilizes environment variables for certain configurations. Bundled with the bot is a <code>.env.example</code> file that you can use set your configurations to. Once you're finished editing the file, you will need to rename it to <code>.env</code> so the bot can read and use the configurations you set during boot. Changing any of the values during the bot's runtime will not be applied until the bot has been rebooted.</p>
+<p>In the case where you want to create your own <code>.env</code> file instead, provided below are all the variables that the bot uses. Not every single value is listed on this page, such as the variables used to manage the bot's user interface. If you want to change the bot's user interface, please go to <strong><a href="../customization/">Configuration &gt; Customization</a></strong> for more information.</p>
+<h2 id="client-configuration">Client Configuration</h2>
+<p>These fields are used to configure the bot.</p>
+<h3 id="token">TOKEN</h3>
+<p><span class="badge-warn"><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/26a0.svg" title=":warning:" /> This field is required.</span></p>
+<p>Your bot's token.</p>
+<h3 id="prefix">PREFIX</h3>
+<p>The default prefix for your bot to respond to. Does not apply to slash commands.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>If no prefix is provided, then your bot's mention will be used as a prefix instead.</p>
+</div>
+<h3 id="app_id">APP_ID</h3>
+<p><span class="badge-warn"><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/26a0.svg" title=":warning:" /> This field is required.</span></p>
+<p>Your application's user ID. This is needed to sync any slash commands on your bot to Discord.</p>
+<h3 id="public_key">PUBLIC_KEY</h3>
+<p>Your application's public key. This is also needed to sync any slash commands on your bot to Discord. Your bot's public key and can be fetched from your app's developer page.</p>
+<h3 id="owner_id">OWNER_ID</h3>
+<p><span class="badge-danger"><img alt="❌" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/274c.svg" title=":x:" /> This field is deprecated.</span></p>
+<p>The bot owner's user ID.</p>
+<h3 id="ipv6_block">IPV6_BLOCK</h3>
+<p>A IPv6 range block address for IP rotation. If you have a IPv6 range, you can use it in this field. This will alleviate the need for a cookie. If you do not know how to use this field, or you don't have an active IPv6 range added to your host, you can leave this field empty and provide a cookie instead.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>An address with a prefix size of <code>/64</code> is recommended, and is usually the most common address assigned by many hosting providers.</p>
+</div>
+<h3 id="proxy">PROXY</h3>
+<p>The URL or IP address used to connect to a proxy server.</p>
+<h3 id="ffmpeg_path">FFMPEG_PATH</h3>
+<p>The filepath that contains an FFmpeg executable. If this field is not set or the specified filepath does not contain an FFmpeg executable, then the bot will use your operating system's PATH variable instead, assuming that FFmpeg was installed to the system correctly and is defined in PATH.</p>
+<h2 id="sharding">Sharding</h2>
+<p>These fields are used to enable sharding support for your bot.</p>
+<h3 id="sharding_1">SHARDING</h3>
+<p>Enables sharding the bot. This should only be used for large bots that are in over 2500 guilds. When enabled, you must send a SIGINT signal if you want to completely shut down the bot. Using the shutdown command restarts all shards instead.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Sharding the bot isn't necessary until your bot reaches 2500 guilds.</p>
+</div>
+<h3 id="shards">SHARDS</h3>
+<p><span class="badge-warn"><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/26a0.svg" title=":warning:" /> Requires <a href="#sharding-1">SHARDING</a> variable.</span></p>
+<p>The number of shards to use. This splits the bot into multiple processes to ease the load of a single shard. Disable to have the bot spawn shards automatically.</p>
+<h3 id="shards_per_cluster">SHARDS_PER_CLUSTER</h3>
+<p><span class="badge-warn"><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/26a0.svg" title=":warning:" /> Requires <a href="#sharding-1">SHARDING</a> variable.</span></p>
+<p>The number of shards that a single cluster will utilize. Clusters are shards that spawn their own internal shards to reduce memory usage. <a href="https://github.com/meister03/discord-hybrid-sharding?tab=readme-ov-file#how-does-it-work">Learn more</a></p>
+<h2 id="plugins">Plugins</h2>
+<p>These variables are used for certain plugins.</p>
+<h3 id="genius_token">GENIUS_TOKEN</h3>
+<p>The token to access Genius API for song lyrics. If this variable is unused, scraping will be used instead.</p>
+<h3 id="soundcloud_client_id">SOUNDCLOUD_CLIENT_ID</h3>
+<p>Your SoundCloud account's client ID.</p>
+<h3 id="soundcloud_oauth_token">SOUNDCLOUD_OAUTH_TOKEN</h3>
+<p>Your SoundCloud account's OAuth token.</p>
+<h3 id="spotify_client_id">SPOTIFY_CLIENT_ID</h3>
+<p>Your Spotify application's client ID.</p>
+<h3 id="spotify_client_secret">SPOTIFY_CLIENT_SECRET</h3>
+<p>Your Spotify application's client secret key.</p>
+<h3 id="spotify_top_tracks_country">SPOTIFY_TOP_TRACKS_COUNTRY</h3>
+<p>The country to use for the top artist tracks. Default is <code>US</code>. Country code must use the <a href="https://en.wikipedia.org/wiki/ISO_3166-2">ISO 3166-1 alpha-2</a> standard.</p>
+<h3 id="spotify_emit_events_after_fetching">SPOTIFY_EMIT_EVENTS_AFTER_FETCHING</h3>
+<p><span class="badge-danger"><img alt="❌" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/274c.svg" title=":x:" /> This field is deprecated.</span></p>
+<p>For Spotify playlists, this field dictates whether the bot should run player events after fetching all songs in a playlist or not. This field is disabled, or <code>false</code> by default. Set to <code>true</code> to enable this field.</p>
+<h3 id="spotify_parallel">SPOTIFY_PARALLEL</h3>
+<p><span class="badge-danger"><img alt="❌" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/274c.svg" title=":x:" /> This field is deprecated.</span></p>
+<p>For Spotify, this field dictates whether the bot should search for all tracks in parallel or not. This field is enabled by default. If searching in parallel, the bot will search for all tracks at the same time. If this field is disabled, then all tracks will be searched one link at a time.</p>
+<h3 id="update_ytdlp">UPDATE_YTDLP</h3>
+<p><span class="badge-info"><img alt="ℹ" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2139.svg" title=":information_source:" /> This field was previously UPDATE_YOUTUBE_DL.</span></p>
+<p>Allows the bot to download the most recent build of yt-dlp on boot. Defaults to <code>true</code>. If you use a custom build of yt-dlp, enabling this variable is not recommended.</p>
+<h2 id="development">Development</h2>
+<p>This section allows you to enable features of the bot for debugging and development purposes, such as enabling the eval command. If you don't know how to use any of the development tools, you should probably keep them disabled for the time being.</p>
+<h3 id="dev_guild">DEV_GUILD</h3>
+<p>The guild's ID. Enabling this will turn the bot's slash commands into guild commands for the specified guild. Set to <code>false</code> to make the commands global.</p>
+<h3 id="use_eval">USE_EVAL</h3>
+<p>Enables the <code>eval</code> command.</p>
+<div class="admonition danger">
+<p class="admonition-title">With great power comes great responsibility!</p>
+<p>Eval can be dangerous if used improperly! You should not enable this variable, unless you know exactly what you're doing. If someone is telling you to enable the eval command to run a script, this will most likely compromise the security of your Discord bot!</p>
+</div>
+<h3 id="use_console">USE_CONSOLE</h3>
+<p>Allows the bot to log to the console window.</p>
+<h3 id="debug_logging">DEBUG_LOGGING</h3>
+<p>Enables debug logging.</p>
+<h3 id="ffmpeg_debug_logging">FFMPEG_DEBUG_LOGGING</h3>
+<p><span class="badge-warn"><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/26a0.svg" title=":warning:" /> Requires <a href="#debug_logging">DEBUG_LOGGING</a> variable.</span></p>
+<p>Enables Ffmpeg debug logging.</p>
+<h3 id="delete_invalid_commands">DELETE_INVALID_COMMANDS</h3>
+<p>Deletes any slash commands that are no longer valid to the bot. Do not use this variable if you have multiple programs controlling one bot account.</p>
+<h3 id="bug_channel">BUG_CHANNEL</h3>
+<p>Allows the bot to send any important system messages to the specified channel ID. If no valid channel ID is provided or left blank, system messages will be sent to the application owner instead. If this field is set to <code>false</code>, this will disable system messages.</p>
+<h2 id="adding-cookies">Adding Cookies</h2>
+<p>Starting in 2023.5.0, a new cookie system has been implemented replacing the <code>YOUTUBE_COOKIE</code> variable. This method should be easier to implement for your use case, but is completely optional. Also, with the new cookie system, you're not just limited to one cookie. The new system will allow you to use more than one cookie! You can learn more on how to use the new cookie system by following the guide below.</p>
+<p><a class="md-button" href="https://github.com/skick1234/DisTube/wiki/YouTube-Cookies">Using cookies</a></p>
+<p>By completing the guide for the new cookie system, you should now have the generated cookie, or multiple cookies if you have more than one. You will need to add them all to the <code>cookies.json</code> file located within the root directory of your bot.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../customization/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Customization">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Customization
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.tooltips", "content.code.copy", "navigation.sections", "navigation.top", "navigation.prune", "navigation.path", "navigation.indexes", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+    
+  </body>
+</html>
